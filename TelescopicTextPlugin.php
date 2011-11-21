@@ -36,7 +36,7 @@ class TelescopicTextPlugin extends StudipPlugin implements SystemPlugin
         StudipFormat::addStudipMarkup('telescopic', '\{\{([^|]+)\|', '\}\}', 'TelescopicTextPlugin::markupTelescope');
     }
 
-    function markupTelescope($markup, $matches, $contents)
+    static function markupTelescope($markup, $matches, $contents)
     {
         return sprintf('<span class="a"><span class="b">%s</span><span class="c">%s</span></span>',
                        $markup->format($matches[1]), $markup->format($contents));
