@@ -1,0 +1,6 @@
+pluginclassname=TelescopicTextPlugin
+pluginname=TelescopicText
+origin=luniki
+version=1.0.0
+studipMinVersion=2.2 alpha svn
+studipMaxVersion=2.3.0

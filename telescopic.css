@@ -1,0 +1,19 @@
+span.c {
+  display: none;
+}
+
+span.b {
+  background-color:#DDD;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+span.b:hover {
+  background-color:#BBB;
+  cursor:pointer;
+  cursor:hand;
+}
+
+span.b:active {
+  background-color:#999;
+}
