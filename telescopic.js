@@ -13,7 +13,7 @@
   
   */  jQuery(function($) {
     return $(".b").click(function() {
-      return $(this).hide().siblings(".c").show();
+      return $(this).siblings(".c").toggle(800);
     });
   });
 }).call(this);
