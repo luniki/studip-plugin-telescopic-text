@@ -14,4 +14,4 @@
 
 jQuery ($) ->
   $(".b").click ->
-    $(@).hide().siblings(".c").show()
+    $(@).siblings(".c").toggle(800)
